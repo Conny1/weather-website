@@ -1,0 +1,58 @@
+
+.currentforecast{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.currentday{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.currentImg{
+    width: 100%;
+    position: relative;
+}
+.currentImg p{
+    /* position: absolute; */
+    top: 0;
+    font-size:20px ;
+    font-weight: bold;
+    left: 20px;
+}
+
+.curentConditions{
+    display: flex;
+flex-wrap: wrap;
+gap: 5px;
+justify-content: space-evenly;
+
+}
+.curentConditions p{
+    width: 20%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+
+}
+@media screen and (max-width:500px) {
+    .curentConditions p{
+     font-size: 15px;
+     font-weight: bold;
+     
+     
+    }   
+     
+   }
+   
+   @media screen and (max-width:300px) {
+     .curentConditions p{
+      font-size: 10px;
+       
+     }
+    
+    
+      
+    }
+   
